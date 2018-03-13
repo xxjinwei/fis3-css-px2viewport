@@ -1,0 +1,35 @@
+{
+  "name": "fis3-css-px2viewport",
+  "version": "1.0.0",
+  "description": "fis3 css plugin",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack --mode development",
+    "prod": "./node_modules/.bin/webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxjinwei/fis3-css-px2viewport.git"
+  },
+  "keywords": [
+    "px2viewport"
+  ],
+  "author": "jin3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxjinwei/fis3-css-px2viewport/issues"
+  },
+  "homepage": "https://github.com/xxjinwei/fis3-css-px2viewport#readme",
+  "dependencies": {
+    "postcss": "^6.0.19",
+    "postcss-px-to-viewport": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11"
+  }
+}
